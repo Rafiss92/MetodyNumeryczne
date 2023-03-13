@@ -18,7 +18,7 @@ function retval = zad1 (A, B)
   printf("Macierz pomocnicza E ma rozmiar (%d,%d)\n",liczba_kolumn,liczba_wierszy);
   for i=1:liczba_wierszy
     for j=1:liczba_kolumn
-      E(j,i)=A(i,j); 
+      E(j,i)=A(i,j);
     endfor
   endfor
   disp("Macierz A po transpozycji:");
